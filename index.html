@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover engineering education, courses, faculty and admissions at MLR Institute of Technology.">
+  <title>MLR Institute of Technology | MLRIT</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="brand">
+        <span class="brand-icon">M</span>
+        <span>
+          <strong>MLRIT</strong>
+          <small>Institute of Technology</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation" aria-expanded="false"
+        aria-controls="navLinks">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#contact" class="nav-cta">Contact Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow light">WELCOME TO MLRIT</span>
+        <h1>Build Your Future.<br><span>Engineer Tomorrow.</span></h1>
+        <p>
+          Discover your potential through engineering education,
+          innovation, creativity, and hands-on learning.
+        </p>
+        <div class="hero-actions">
+          <a href="#courses" class="btn btn-primary">Explore Courses ↗</a>
+          <a href="#about" class="btn btn-outline">Discover MLRIT</a>
+        </div>
+        <div class="hero-note">
+          <span class="status-dot"></span>
+          Engineering education for a changing world
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="highlights">
+      <div class="container highlight-grid">
+        <article class="highlight">
+          <span class="highlight-icon">⌘</span>
+          <div><h3>Innovation</h3><p>Ideas into solutions</p></div>
+        </article>
+        <article class="highlight">
+          <span class="highlight-icon">◇</span>
+          <div><h3>Excellence</h3><p>Learn with purpose</p></div>
+        </article>
+        <article class="highlight">
+          <span class="highlight-icon">↗</span>
+          <div><h3>Career Growth</h3><p>Prepare for tomorrow</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=85"
+            alt="University academic building"
+            loading="lazy">
+          <div class="image-caption">
+            <strong>Learn. Create. Lead.</strong>
+            <span>A future-focused learning experience</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="eyebrow">ABOUT OUR INSTITUTE</span>
+          <h2>Where ambition meets <span class="accent">opportunity.</span></h2>
+          <p>
+            MLR Institute of Technology is an engineering institution
+            in Hyderabad, Telangana. This website introduces prospective
+            students to engineering programs, campus life, faculty,
+            and the admissions process.
+          </p>
+          <p>
+            Our sample website emphasizes technology-driven learning,
+            practical skills, creativity, and professional development.
+          </p>
+          <div class="about-points">
+            <div><span>✓</span> Technology-focused learning</div>
+            <div><span>✓</span> Practical and project-based education</div>
+            <div><span>✓</span> Student development and innovation</div>
+          </div>
+          <a class="text-link" href="#admissions">Explore admissions →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses -->
+    <section class="section section-soft" id="courses">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">ACADEMIC PROGRAMS</span>
+          <h2>Explore our <span class="accent">courses.</span></h2>
+          <p>Discover engineering disciplines and find the path that fits your interests.</p>
+        </div>
+
+        <div class="course-filters" aria-label="Filter courses">
+          <button class="filter-btn active" data-filter="all">All Programs</button>
+          <button class="filter-btn" data-filter="computing">Computing</button>
+          <button class="filter-btn" data-filter="engineering">Engineering</button>
+        </div>
+
+        <div class="course-grid">
+          <article class="course-card" data-category="computing">
+            <div class="course-icon blue">⌘</div>
+            <span class="course-tag">COMPUTING</span>
+            <h3>Computer Science & Engineering</h3>
+            <p>Explore programming, algorithms, software development, and computing fundamentals.</p>
+            <a href="#contact" class="text-link">Enquire now →</a>
+          </article>
+
+          <article class="course-card" data-category="computing">
+            <div class="course-icon purple">AI</div>
+            <span class="course-tag">EMERGING TECHNOLOGY</span>
+            <h3>CSE — Artificial Intelligence & Machine Learning</h3>
+            <p>Learn about intelligent systems, machine learning concepts, and data-driven applications.</p>
+            <a href="#contact" class="text-link">Enquire now →</a>
+          </article>
+
+          <article class="course-card" data-category="computing">
+            <div class="course-icon green">DS</div>
+            <span class="course-tag">DATA & ANALYTICS</span>
+            <h3>CSE — Data Science</h3>
+            <p>Discover data analysis, statistical methods, visualization, and computational techniques.</p>
+            <a href="#contact" class="text-link">Enquire now →</a>
+          </article>
+
+          <article class="course-card" data-category="engineering">
+            <div class="course-icon orange">⚡</div>
+            <span class="course-tag">ENGINEERING</span>
+            <h3>Electronics & Communication Engineering</h3>
+            <p>Study electronic circuits, communication systems, and embedded technologies.</p>
+            <a href="#contact" class="text-link">Enquire now →</a>
+          </article>
+
+          <article class="course-card" data-category="engineering">
+            <div class="course-icon red">⚙</div>
+            <span class="course-tag">ENGINEERING</span>
+            <h3>Mechanical Engineering</h3>
+            <p>Explore mechanical systems, design principles, manufacturing, and engineering analysis.</p>
+            <a href="#contact" class="text-link">Enquire now →</a>
+          </article>
+
+          <article class="course-card" data-category="engineering">
+            <div class="course-icon teal">▦</div>
+            <span class="course-tag">ENGINEERING</span>
+            <h3>Electrical Engineering</h3>
+            <p>Discover electrical systems, power concepts, control systems, and related technologies.</p>
+            <a href="#contact" class="text-link">Enquire now →</a>
+          </article>
+        </div>
+        <p class="disclaimer">
+          Sample course listings for demonstration. Confirm current programs,
+          specializations, and availability with the institute.
+        </p>
+      </div>
+    </section>
+
+    <!-- Admissions -->
+    <section class="section admissions" id="admissions">
+      <div class="container admissions-grid">
+        <div>
+          <span class="eyebrow light">YOUR NEXT CHAPTER</span>
+          <h2>Ready to turn your dreams into reality?</h2>
+          <p>
+            Take the next step toward your engineering journey.
+            Contact the institute to learn about eligibility,
+            entrance examinations, application deadlines, and fees.
+          </p>
+          <a href="#contact" class="btn btn-white">Request Information ↗</a>
+        </div>
+        <div class="admission-steps">
+          <article><span>01</span><div><h3>Explore Programs</h3><p>Choose a discipline that matches your goals.</p></div></article>
+          <article><span>02</span><div><h3>Check Eligibility</h3><p>Confirm entrance exam and admission requirements.</p></div></article>
+          <article><span>03</span><div><h3>Contact Admissions</h3><p>Ask about applications, documents, and deadlines.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty -->
+    <section class="section" id="faculty">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">OUR EDUCATORS</span>
+          <h2>Learn from <span class="accent">experience.</span></h2>
+          <p>Great education combines knowledge, mentorship, and curiosity.</p>
+        </div>
+        <div class="faculty-grid">
+          <article class="faculty-card">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+              alt="Faculty portrait placeholder" loading="lazy">
+            <div class="faculty-info">
+              <h3>Faculty Member</h3>
+              <p>Computer Science & Engineering</p>
+              <span>Teaching · Research · Mentorship</span>
+            </div>
+          </article>
+          <article class="faculty-card">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+              alt="Faculty portrait placeholder" loading="lazy">
+            <div class="faculty-info">
+              <h3>Faculty Member</h3>
+              <p>Electronics & Communication</p>
+              <span>Learning · Innovation · Research</span>
+            </div>
+          </article>
+          <article class="faculty-card">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+              alt="Faculty portrait placeholder" loading="lazy">
+            <div class="faculty-info">
+              <h3>Faculty Member</h3>
+              <p>Engineering & Technology</p>
+              <span>Projects · Guidance · Development</span>
+            </div>
+          </article>
+        </div>
+        <p class="disclaimer">Portraits and faculty descriptions are placeholders, not verified staff profiles.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-soft" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2>Let's start a <span class="accent">conversation.</span></h2>
+          <p>Have questions about programs or admissions? Send us an enquiry.</p>
+
+          <div class="contact-item">
+            <span class="contact-icon">⌖</span>
+            <div><h3>Location</h3><p>Hyderabad, Telangana, India</p></div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">✉</span>
+            <div><h3>Email</h3><p>Use the official institute website to verify contact details.</p></div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">↗</span>
+            <div><h3>Official website</h3>
+              <p><a href="https://www.mlrinstitutions.ac.in/" target="_blank" rel="noopener noreferrer">Visit MLR Institutions ↗</a></p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <h3>Send an enquiry</h3>
+          <p>Fill in your details below.</p>
+
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" placeholder="Your full name" required>
+
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="program">Interested program</label>
+          <select id="program" name="program" required>
+            <option value="">Select a program</option>
+            <option>Computer Science & Engineering</option>
+            <option>CSE — Artificial Intelligence & Machine Learning</option>
+            <option>CSE — Data Science</option>
+            <option>Electronics & Communication Engineering</option>
+            <option>Mechanical Engineering</option>
+            <option>Electrical Engineering</option>
+            <option>Other / General enquiry</option>
+          </select>
+
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="4"
+            placeholder="How can we help you?" required></textarea>
+
+          <button class="btn btn-primary submit-btn" type="submit">Submit Enquiry ↗</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form-note">Demo form only. Messages are not sent or stored.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-main">
+      <a href="#home" class="brand footer-brand">
+        <span class="brand-icon">M</span>
+        <span><strong>MLRIT</strong><small>Institute of Technology</small></span>
+      </a>
+      <p>Inspiring minds. Engineering the future.</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> MLR Institute of Technology. Website demonstration.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
